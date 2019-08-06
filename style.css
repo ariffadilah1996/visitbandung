@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.border-keren {
+    border-left: 1px solid lightgrey;
+    border-bottom: 5px solid #f8f9fa;
+    transition: 0.3s;
+}
+
+.border-keren:hover {
+    border-bottom: 5px solid #1e409b;
+    transition: 0.3s;
+}
+
+.border-kanan {
+    border-right: 1px solid lightgrey;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.posisi-drop {
+    position: relative;
+    top: 60px;
+    width: 100%;
+}
+
+.jumbotron {
+    background-image: url(img/gedung-sate.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.jumbotron1 {
+    background-image: url(img/gedung-sate.jpg);
+    background-size: cover;
+    height: 350px;
+}
+
+.text-jumbotron-custom {
+    position: relative;
+    top: 400px;
+    text-shadow: 5px 5px 5px black;
+}
+
+.text-jumbotron-custom1 {
+    top: 200px;
+    left: 20%;
+    text-shadow: 5px 5px 5px black;
+    font-size: 24px;
+}
+
+.p-20 {
+    padding-left: 20%;
+    padding-top: 200px;
+}
+
+.button-move {
+    position: relative;
+    padding-top: 400px;
+}
+
+.button-move1 {
+    position: relative;
+    padding-left: 70px;
+}
+
+.navbar-custom .navbar-brand {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+    color: blue;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover,
+.navbar-custom .navbar-nav .nav-link:focus {
+    color: #1e409b;
+}
+
+.navbar-custom .navbar-nav .show>.nav-link,
+.navbar-custom .navbar-nav .active>.nav-link,
+.navbar-custom .navbar-nav .nav-link.show,
+.navbar-custom .navbar-nav .nav-link.active {
+    color: #1e409b;
+}
+
+.navbar-custom .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-custom .navbar-text {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-custom .navbar-text a {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-custom .navbar-text a:hover,
+.navbar-custom .navbar-text a:focus {
+    color: #1e409b;
+}
+
+hr {
+    height: 10px;
+    width: 10%;
+}
+
+.tinggi-kartu {
+    height: 200px;
+}
+
+.tinggi-kartu-kecil {
+    height: 300px;
+}
+
+
+
+.dropdown {
+    position: static;
+}
+
+.p-21 {
+    padding: 20px;
+    text-align: center;
+}
+
+.posisi-isi {
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+
+#footer ul {
+    list-style: none;
+    margin-left: -40px;
+
+}
+
+
+#footer ul li a {
+    text-decoration: none;
+
+    color: black;
+}
+
+#footer ul li a:hover {
+    text-decoration: none;
+    list-style: none;
+    color: blue;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 5px gray;
+    transition: .5s;
+}
+
+.card {
+    transition: .5s;
+}
