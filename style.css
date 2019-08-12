@@ -174,3 +174,22 @@ hr {
 .card {
     transition: .5s;
 }
+
+.gambar-kecil {
+    width: 50px;
+    height: 50px;
+}
+
+.gambar-70-70 {
+    width: 70px;
+    height: 70px;
+}
+
+.gambar-100-70 {
+    width: 100px;
+    height: 70px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
