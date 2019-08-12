@@ -11,13 +11,11 @@
   <!-- <link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.css" /> -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css" />
-  <script src="index.js"></script>
-
+  <script src="script.js"></script>
 </head>
 
 <body>
   <!-- navbar -->
-
   <nav class="navbar navbar-expand-lg navbar-custom bg-light pb-0 pt-0 fixed-top">
     <section id="navbar" class="container">
       <!-- logo -->
@@ -44,6 +42,7 @@
           <!-- akhir Festival & Events -->
 
           <!-- Eat & Drinks -->
+          <div class="d-none d-lg-block">
           <li class="nav-item dropdown border-keren p-2">
             <a class="nav-link" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
               aria-expanded="false">
@@ -57,35 +56,82 @@
                 <div class="container">
                   <div class="row justify-content-center">
                     <div class="col-2 text-center  pt-5 pb-5">
-                      <a href=""><img src="img/chinese-noodles.png" style="width: 70px; height: 70px;" alt=""><br>Local
+                      <a href=""><img src="img/chinese-noodles.png" class="gambar-70-70" alt=""><br>Local
                         Dishes</a>
                     </div>
                     <div class="col-2 text-center  pt-5 pb-5">
-                      <a href=""><img src="img/restaurant.png" style="width: 70px; height: 70px;" alt=""><br>
+                      <a href=""><img src="img/restaurant.png" class="gambar-70-70" alt=""><br>
                         Dining Out</a>
                     </div>
                     <div class="col-2 text-center  pt-5 pb-5">
-                      <a href=""> <img src="img/coffee-cup.png" style="width: 70px; height: 70px;" alt=""><br> Local
+                      <a href=""> <img src="img/coffee-cup.png" class="gambar-70-70" alt=""><br> Local
                         Cafe</a>
                     </div>
-                    <div class="col-2 text-center"
+                    <div class="col-2"
                       style="border-left: 1px solid lightgrey; border-top: 10px solid white;">
                       <p>Featured</p>
-                      <a href=""><img src="img/Cibadak.jpg" style="width: 100px; height: 70px;" alt=""><br>Cibadak
+                      <a href=""><img src="img/Cibadak.jpg" class="gambar-100-70" alt=""><br>Cibadak
                         Street</a>
                     </div>
                     <div class="col-2 text-center" style="border-top: 49px solid white;">
-                      <a href=""><img src="img/peyeum.jpg" style="width: 100px; height: 70px;" alt=""><br>Peyeum</a>
+                      <a href=""><img src="img/peyeum.jpg" class="gambar-100-70" alt=""><br>Peyeum</a>
                     </div>
                     <div class="col-2 text-center" style="border-top: 49px solid white;">
-                      <a href=""><img src="img/cafe.jpg" style="width: 100px; height: 70px;" alt=""><br>Cafe</a>
+                      <a href=""><img src="img/cafe.jpg" class="gambar-100-70" alt=""><br>Cafe</a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </li>
+        </div>
           <!--akhir isi Eat & Drinks -->
+          <!-- eat&drink kecil -->
+          <div class="d-lg-none ">
+               <li class="nav-item dropdown border-keren p-2">
+            <a class="nav-link" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              <strong>Eat & Drinks</strong>
+            </a>
+            <!-- akhir Eat & Drinks -->
+
+            <!-- isi Eat & Drinks -->
+            <div class="dropdown-menu posisi-drop" aria-labelledby="navbarDropdown">
+              <div class="container">
+                <div class="container">
+                  <div class="row justify-content-center">
+                    <div class="col-2 text-center  pt-5 pb-5">
+                      <a href=""><img src="img/chinese-noodles.png" class="gambar-kecil" alt=""><br>Local
+                        Dishes</a>
+                    </div>
+                    <div class="col-2 text-center  pt-5 pb-5">
+                      <a href=""><img src="img/restaurant.png" class="gambar-kecil" alt=""><br>
+                        Dining Out</a>
+                    </div>
+                    <div class="col-2 text-center  pt-5 pb-5">
+                      <a href=""> <img src="img/coffee-cup.png" class="gambar-kecil" alt=""><br> Local
+                        Cafe</a>
+                    </div>
+                    <div class="col-2 text-center"
+                      style="border-left: 1px solid lightgrey; border-top: 10px solid white;">
+                      <p>Featured</p>
+                      <a href=""><img src="img/Cibadak.jpg" class="gambar-kecil" alt=""><br>Cibadak
+                        Street</a>
+                    </div>
+                    <div class="col-2 text-center" style="border-top: 49px solid white;">
+                      <a href=""><img src="img/peyeum.jpg" class="gambar-kecil" alt=""><br>Peyeum</a>
+                    </div>
+                    <div class="col-2 text-center" style="border-top: 49px solid white;">
+                      <a href=""><img src="img/cafe.jpg" class="gambar-kecil" alt=""><br>Cafe</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          </div>
+
+          <!-- akhir eat&drink kecil -->
 
           <!-- Shop -->
           <li class="nav-item border-keren border-kalang p-2">
@@ -106,6 +152,7 @@
           <!-- akhir Tours -->
 
           <!-- Traveller Essentials -->
+          <div class="d-none d-lg-block">
           <li class="nav-item dropdown border-keren border-kanan p-2">
             <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
               aria-expanded="false">
@@ -118,28 +165,28 @@
                 <div class="container">
                   <div class="row justify-content-center">
                     <div class="col-2 text-center  pt-5 pb-5">
-                      <a href=""><img src="img/book.png" style="width: 70px; height: 70px;" alt=""><br>About Bandung</a>
+                      <a href=""><img src="img/book.png" class="gambar-70-70" alt="About Bandung"><br>About Bandung</a>
                     </div>
                     <div class="col-2 text-center  pt-5 pb-5">
-                      <a href=""><img src="img/location.png" style="width: 70px; height: 70px;" alt=""><br>
+                      <a href=""><img src="img/location.png" class="gambar-70-70" alt="location"><br>
                         Getting to Bandung</a>
                     </div>
                     <div class="col-2 text-center  pt-5 pb-5">
-                      <a href=""> <img src="img/bus.png" style="width: 70px; height: 70px;" alt=""><br> Getting Around
+                      <a href=""> <img src="img/bus.png" class="gambar-70-70" alt="Bus"><br> Getting Around
                         Bandung</a>
                     </div>
                     <div class="col-2 text-center"
                       style="border-left: 1px solid lightgrey; border-top: 8px solid white;">
                       <p class="text-left text-primary">Featured</p>
-                      <a href=""><img src="img/wifi.png" style="width: 70px; height: 70px;" alt=""><br>Wifi &
+                      <a href=""><img src="img/wifi.png" class="gambar-70-70" alt="wifi"><br>Wifi &
                         Connectivity</a>
                     </div>
                     <div class="col-2 text-center" style="border-top: 49px solid white;">
-                      <a href=""><img src="img/maps.png" style="width: 100px; height: 70px;" alt=""><br>Maps, Apps, &
+                      <a href=""><img src="img/maps.png" class="gambar-100-70" alt="maps"><br>Maps, Apps, &
                         City Guides</a>
                     </div>
                     <div class="col-2 text-center" style="border-top: 49px solid white;">
-                      <a href=""><img src="img/hotel.png" style="width: 100px; height: 70px;" alt=""><br>Bandung Visitor
+                      <a href=""><img src="img/hotel.png" class="gambar-100-70" alt="hotel"><br>Bandung Visitor
                         Center</a>
                     </div>
                   </div>
@@ -147,8 +194,53 @@
               </div>
             </div>
           </li>
-        </ul>
+        </div>
         <!--akhir isi Traveller Essentials -->
+        <!-- travel essential ketika kecil -->
+        <div class="d-lg-none ">
+          <li class="nav-item dropdown border-keren p-2">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              <strong>Traveller Essentials</strong>
+            </a>
+            <!-- akhir Traveller Essentials -->
+            <!-- isi Traveller Essentials -->
+            <div class="dropdown-menu posisi-drop" aria-labelledby="navbarDropdown">
+              <div class="container">
+                <div class="container">
+                  <div class="row justify-content-center">
+                    <div class="col-2 text-center  pt-5 pb-5">
+                      <a class="font-14" href=""><img src="img/book.png" class="gambar-kecil" alt=""><br>About Bandung</a>
+                    </div>
+                    <div class="col-2 text-center  pt-5 pb-5">
+                      <a class="font-14" href=""><img src="img/location.png" class="gambar-kecil" alt=""><br>
+                        Getting to Bandung</a>
+                    </div>
+                    <div class="col-2 text-center  pt-5 pb-5">
+                      <a class="font-14" href=""> <img src="img/bus.png" class="gambar-kecil" alt=""><br> Getting Around
+                        Bandung</a>
+                    </div>
+                    <div class="col-2 text-center"
+                      style="border-left: 1px solid lightgrey; border-top: 8px solid white;">
+                      <p class="font-14" class="text-left text-primary">Featured</p>
+                      <a class="font-14" href=""><img src="img/wifi.png" class="gambar-kecil" alt=""><br>Wifi &
+                        Connectivity</a>
+                    </div>
+                    <div class="col-2 text-center" style="border-top: 49px solid white;">
+                      <a class="font-14" href=""><img src="img/maps.png" class="gambar-kecil" alt=""><br>Maps, Apps, &
+                        City Guides</a>
+                    </div>
+                    <div class="col-2 text-center" style="border-top: 49px solid white;">
+                      <a class="font-14" href=""><img src="img/hotel.png" class="gambar-kecil" alt=""><br>Bandung Visitor
+                        Center</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </div>
+      </ul>
         <!-- Search  ketika besar-->
         <ul class="navbar-nav my-2 my-lg-0">
           <li class="nav-item dropdown border-keren p-2 d-none d-lg-block">
@@ -511,7 +603,7 @@
       <div class="col-lg-4 text-center">
         <h5><strong>Find Us On</strong></h5> 
         <div class="row" style="font-size: 26px;">
-          <div class="col-lg-6">
+          <div class="col">
             <ul>
               <li><a href="https://www.youtube.com/" target="_blank">
                 <i class="fab fa-youtube"> YouTube</i>
@@ -521,7 +613,7 @@
               </a></li>
             </ul>
           </div>
-          <div class="col-lg-6">
+          <div class="col">
             <ul>
               <li><a href="https://twitter.com/" target="_blank">
                 <i class="fab fa-twitter"> Twitter</i>
